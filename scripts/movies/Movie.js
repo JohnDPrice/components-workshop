@@ -1,8 +1,8 @@
 export function Movie(movieObject) {
     return `<section class="movie-card">
-    <h2>${movieObject.title}</h2>
-    <h3>${movieObject.director}</h3>
-    <img src="${movieObject.image}"/>
-      <p>Rank: ${movieObject.rank}</p>
+    <h2 class="movie-title">${movieObject.title}</h2>
+    <h3 clas="movie-director">${movieObject.director}</h3>
+    <img class="movie-img" src="${movieObject.image}"/>
+      <p class="movie-rank">Rank: ${movieObject.rank}</p>
     </section>`
 }
