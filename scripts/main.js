@@ -1,4 +1,4 @@
-import {MovieCard} from "./MovieList.js"
+import {MovieCard} from "./movies/MovieList.js"
 
 
 MovieCard()
